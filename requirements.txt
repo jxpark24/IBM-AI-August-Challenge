@@ -17,3 +17,10 @@ pytest==9.1.1
 python-dateutil==2.9.0.post0
 scipy==1.18.0
 six==1.17.0
+
+# --- RL routing environment (src/rl/) --------------------------------------
+# OPTIONAL. RoutingEnv, its tests and demo_rl_env.py run on pure stdlib without
+# these, so the demo works on a clean machine (PDF section 15, "run offline").
+# Install them on the training machine to get a real gymnasium.Env + MaskablePPO.
+# gymnasium==1.0.0
+# sb3-contrib==2.4.0
